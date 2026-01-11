@@ -43,7 +43,7 @@ line-height:30px;
 header{
     background-color: #FFF8F3;
     background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3 ;
-    background-position:top left,bottom right;
+    background-position:23px 38px,bottom right;
     background-repeat:no-repeat;
     padding-top:50px;
 }
@@ -128,4 +128,158 @@ max-width:584px;
     font-size:15px;
     font-weight: bold;
     color:#474747;
+}
+#work{
+    padding-top:130px;
+}
+#work .work-container{
+    max-width:1140px;
+    width:71%;
+    margin:0 auto;
+}
+.work-head{
+    text-align: center;
+      max-width:827px;
+      margin:0 auto;
+}
+.work-head h2{
+    color:#181818;
+    font-size:35px;
+    font-weight:bold;
+  
+    margin-bottom:30px;
+}
+.work-head p{
+    font-size:18px;
+    line-height: 30px;
+    color:#757575;
+    margin-bottom: 50px;
+}
+.parent-work-card{
+    display:flex;
+    gap:24px;
+}
+.parent-work-card .child-card{
+    max-width: 267px;
+    padding:30px 33px 30px 30px;
+    border:1px solid #FD6E0A;
+    box-shadow: 0px 6px 50px 0px #0000005f;
+}
+.parent-work-card .child-card img{
+  max-width:44px;
+  margin-bottom: 30px;
+}
+.parent-work-card .child-card h4{
+    max-width: 174;
+    margin-bottom:20px;
+    font-size:20px;
+    color:#181818;
+    font-weight:bold;
+}
+.parent-work-card .child-card p{
+    font-size:16px;
+    color:#757575;
+    max-width:201px;
+    line-height:28px;
+}
+#main-resume{
+   padding-top:130px;
+}
+.resume-title{
+    
+    text-align:center;
+    font-size:35px;
+    font-weight:bold;
+    color:#181818;
+    margin-bottom:113px;
+}
+.resume-container{
+    width:71%;
+    max-width:1140px;
+    margin:0 auto; /*if we dont use max-width the auto margin do not work */
+    display:flex;
+    gap:24px;
+    justify-content: space-between;
+}
+.card-title{
+    max-width:218px;
+    font-size:30px;
+    font-weight:bold;
+    color:#474747;
+    margin-bottom: 30px;
+}
+.resume-card h3{
+    color:#474747;
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.resume-card p{
+    color:#757575;
+    font-weight:bold;
+    font-size:16px;
+    line-height: 28px;
+    margin-bottom:20px;
+}
+.resume-container hr{
+    margin:30px 0;
+}
+.button-center{
+    text-align:center;
+    margin-top:50px;
+}
+footer{
+    margin-top:113px;
+    background-color: #FFF8F3;
+    padding:130px 230px;
+}
+.main-fot{
+max-width: 1140px;
+margin:0 auto;
+}
+.parent-card{
+    display:flex;
+    gap:117px;
+}
+.foot-title h2{
+    max-width: 227px;
+    color:#181818;
+    font-size:35px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.foot-title p{
+    max-width: 562px;
+    color:#474747;
+    font-size:16px;
+    margin-bottom:14px; 
+    line-height: 28px;
+}
+.foot-title img{
+    max-width: 120px;
+    color:#FD6E0A;
+    width:24px;
+    height:24px;
+    font-size:16px;
+    margin-right: 24px;
+    margin-bottom:14px;  
+    
+}
+.fot-form{
+    display:block;
+}
+ .fot-form h2{
+    max-width:305px;
+    color:#181818;
+    font-size:35px;
+    font-weight: bold;
+    margin-bottom:28px;
+}
+.fbox input,textarea{
+     margin-bottom:24px; 
+     max-width: 461px;
+     padding:18px 31px;
+     color:#FFFFFF;
+     border-radius:5px;
+     border:none;
 }
