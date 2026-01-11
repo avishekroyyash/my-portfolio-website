@@ -18,7 +18,22 @@
     font-weight:bold;
     cursor:pointer;
 }
-
+.about-head{
+    max-width: 827px;
+    text-align:center;
+}
+.about-head h2{
+font-size:35px;
+font-weight: bold;
+color:#181818;
+margin-bottom: 30px;
+}
+.about-head p{
+color:#757575;
+font-size:18px;
+margin-bottom:30px;
+line-height:30px;
+}
 
 /* main style */
 *{
@@ -84,4 +99,33 @@ nav .menu a{
 .banner-img img {
 max-width:584px;
  vertical-align: middle; /*to remove bottom gap of the pic */
+}
+#about{
+    padding:130px 230px 0px 230px;
+}
+.about-container{
+    text-align:center;
+    max-width: 1140px;
+    width:71%;
+    background-color:#FFF8F3;
+    margin:0 auto;
+    padding:131px 157px;
+}
+.parent-about-card{
+    display:flex;
+    gap:100px;
+    justify-content: space-around;
+}
+.c-a-c{
+    max-width: 110px;
+}
+.c-a-c p{
+    color:#757575;
+    font-size:15px;
+    line-height: 30px;
+}
+.c-a-c h4{
+    font-size:15px;
+    font-weight: bold;
+    color:#474747;
 }
